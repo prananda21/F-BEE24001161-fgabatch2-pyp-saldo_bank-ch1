@@ -11,7 +11,7 @@ function tambahSaldo() {
 		let result = (saldo += num);
 		alert(`Saldo kamu saat ini : Rp ${result}`);
 	} else {
-		alert("Kamu belum memasukkan saldo");
+		alert("Input tidak valid!");
 	}
 	return saldo;
 }
@@ -27,7 +27,7 @@ function kurangSaldo() {
 			alert(`Saldo kamu saat ini : Rp ${result}`);
 		}
 	} else {
-		alert("Kamu belum memasukkan saldo");
+		alert("Input tidak valid!");
 	}
 	return saldo;
 }
