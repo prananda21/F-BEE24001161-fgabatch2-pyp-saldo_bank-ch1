@@ -1,5 +1,9 @@
 let saldo = 0;
 
+function tampilSaldo() {
+	alert(`Saldo saat ini: ${saldo}`);
+}
+
 function tambahSaldo() {
 	let num = parseInt(prompt(`Saldo saat ini ${saldo} \nMasukkan saldo : `));
 	if (num) {
