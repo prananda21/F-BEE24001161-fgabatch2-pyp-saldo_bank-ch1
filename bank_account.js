@@ -2,6 +2,7 @@ let saldo = 0;
 
 function tampilSaldo() {
 	alert(`Saldo saat ini: ${saldo}`);
+	return saldo;
 }
 
 function tambahSaldo() {
